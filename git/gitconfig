@@ -1,9 +1,9 @@
 [github]
-  user = dcramer
+  user = tabuchid
 
 [user]
-  name = David Cramer
-  email = dcramer@gmail.com
+  name = Doug Tabuchi
+  email = doug@dougtabuchi.com
 
 [color]
   ui = auto
@@ -36,14 +36,12 @@
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
   ls = ls-files
 
-[hub]
-  protocol = https
-
 [core]
   pager = less -R
+	editor = mvim -f
 
 [push]
-  default = matching
+  default = simple
 [branch]
 	autosetuprebase = always
 [help]
