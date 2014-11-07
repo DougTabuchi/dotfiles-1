@@ -3,7 +3,6 @@ install: install-virtualenvwrapper install-pythonrc \
 
 install-git:
 	ln -fs `pwd`/git/gitconfig ~/.gitconfig
-	curl -o ~/.git-completion.bash https://github.com/git/git/raw/master/contrib/completion/git-completion.bash -OL
 
 install-bin:
 	mkdir -p ~/.bin/
