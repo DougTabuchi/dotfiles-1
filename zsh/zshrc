@@ -43,6 +43,8 @@ if [ -e "$HOME/.local-bashrc" ]; then
   source "$HOME/.local-bashrc"
 fi
 
+eval "$(hub alias -s)"
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
